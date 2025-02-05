@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+     
+    stages {
+        stage("Hello aldi") {
+            steps {
+                echo("Hello Alditya")
+            }
+        }
+    }
+}
